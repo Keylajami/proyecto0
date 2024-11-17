@@ -1,0 +1,26 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Nombre y Edad</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Ingrese sus  de Datos</h2>
+        <form id="dataForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+            
+            <label for="age">Edad:</label>
+            <input type="number" id="age" placeholder="Ingresa tu edad" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="js/ap.js"></script> 
+</body>
+</html>
